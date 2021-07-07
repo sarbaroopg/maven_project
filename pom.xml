@@ -105,6 +105,7 @@
 			<pushChanges>false</pushChanges>
 			<mavenExecutorId>forked-path</mavenExecutorId>
 			<arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
+			<releaseProfiles>release</releaseProfiles>
 			</configuration>
 			<dependencies>
 			<dependency>

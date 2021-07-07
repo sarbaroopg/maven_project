@@ -38,12 +38,7 @@
 	</repository>
   </distributionManagement>
 
-<scm>
-<connection>scm:git:git://github.com/sarbaroopg/maven_project.git</connection>
-<developerConnection>scm:git:git@github.com:sarbaroopg/maven_project.git</developerConnection>
-<url>https://github.com/sarbaroopg/maven_project</url>
-<tag>HEAD</tag>
-</scm>
+
 	
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

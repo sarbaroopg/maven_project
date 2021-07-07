@@ -5,7 +5,7 @@
 
   <groupId>com</groupId>
   <artifactId>wissen</artifactId>
-  <version>demo</version>
+  <version>1.1-SNAPSHOT</version>
 
   <name>wissen</name>
   <!-- FIXME change it to the project's website -->
@@ -42,7 +42,7 @@
 <connection>scm:git:git://github.com/sarbaroopg/maven_project.git</connection>
 <developerConnection>scm:git:git@github.com:sarbaroopg/maven_project.git</developerConnection>
 <url>https://github.com/sarbaroopg/maven_project</url>
-<tag>wissen-demo</tag>
+<tag>HEAD</tag>
 </scm>
 	
   <build>

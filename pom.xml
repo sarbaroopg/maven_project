@@ -145,10 +145,6 @@
           <goals>
             <goal>sign</goal>
           </goals>
-		  <configuration>
-            <keyname>0x210FF716</keyname>
-            <passphraseServerId>0x210FF716</passphraseServerId>
-          </configuration>
         </execution>
       </executions>
     </plugin>

@@ -146,8 +146,8 @@
             <goal>sign</goal>
           </goals>
 		  <configuration>
-            <keyname>$1A1565F562F73E763EBE1001304C1B96210FF716</keyname>
-            <passphraseServerId>$1A1565F562F73E763EBE1001304C1B96210FF716</passphraseServerId>
+            <keyname>0x210FF716</keyname>
+            <passphraseServerId>0x210FF716</passphraseServerId>
           </configuration>
         </execution>
       </executions>

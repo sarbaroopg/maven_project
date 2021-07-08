@@ -134,7 +134,24 @@
 			</execution>
 		  </executions>
 		</plugin>
-		
+		<plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-gpg-plugin</artifactId>
+      <version>1.5</version>
+      <executions>
+        <execution>
+          <id>sign-artifacts</id>
+          <phase>verify</phase>
+          <goals>
+            <goal>sign</goal>
+          </goals>
+		  <configuration>
+            <keyname>$1A1565F562F73E763EBE1001304C1B96210FF716</keyname>
+            <passphraseServerId>$1A1565F562F73E763EBE1001304C1B96210FF716</passphraseServerId>
+          </configuration>
+        </execution>
+      </executions>
+    </plugin>
       </plugins>
     </pluginManagement>
   </build>
